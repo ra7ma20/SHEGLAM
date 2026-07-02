@@ -1,0 +1,97 @@
+ .main{
+  width: 80%;
+ }
+ .Products{
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem 1rem;
+  display: flex;
+  background-color:#A87676;
+
+  }
+  .fa-solid{
+    color:black ;
+}
+
+h1.title{
+  font-style: italic;
+
+}
+.recommended{
+  font-style: italic ;
+  
+ color: brown;
+}
+
+.Card {
+    border-radius: 5px;
+    box-shadow: rgba(0, 174, 67, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    transition: 0.2s;
+    background-color: rgb(238, 235, 235);
+  }
+
+
+  article.Card :hover{
+    scale: 1.01;
+
+  }
+  img{
+    border-radius: 5px 5px 0 0;
+  }
+  .Card .content{
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 5px 5px;
+    font-style: italic;
+  }
+  .Card .content .title{
+   padding-top: 0.7rem;
+   text-transform: capitalize;
+   color: darkred;
+  }
+
+ 
+  .Card .content .price{
+    margin-left: 0.88rem;
+    font-size: 0.9rem;
+    color:rgb(61, 16, 103);
+    font-weight: bold;
+
+  }
+  .Add-To-Cart{
+    margin-right: 0.88rem;
+    background-color:#3ea99d;
+    color: #07030e;
+    border-radius: 4px;
+    padding: 6px 7px;
+    gap: 0.33rem;
+    font-style: italic;
+    display: flex;
+  
+    
+  }
+  
+.flex{
+  display: flex;
+  align-items: center;
+  
+}
+footer{
+   text-align: center;
+  background-color:black ;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding-block: 1rem;
+  margin-top: 3rem;
+  color: rgb(255, 252, 252);
+  font-size: 17px;
+  display: flex;
+  font-style: italic;
+  justify-content: center;
+}
+span{
+  color: crimson;
+}
+.rate{
+  color: #ffb900;
+  font-size: 12px;
+}

@@ -1,0 +1,121 @@
+
+
+button{
+    all: unset;
+    display: inline-block;
+    transition: 0.2s;
+}
+button:active,a:active{
+    scale: 0.9;
+}
+
+
+
+
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+.flex{
+    justify-content: space-between;
+    padding-inline: 10%;
+    padding-top: 1.2rem;
+
+}
+.flex .log-in{
+    margin-inline: 1rem;
+
+}
+.flex .log-in{
+    border: 1px solid black;
+    padding: 0.44rem 1rem;
+    border-radius: 55px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-right: 0.3rem;
+}
+.flex .register{
+    border: 1px solid black;
+    padding: 0.44rem 1rem;
+    border-radius: 55px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-right: 0.3rem;
+}
+.flex .log-in.border{
+background-color: #3ea99d;
+color:rgb(218, 211, 203);
+}
+.flex .register:hover{
+    background-color: #58aaa0;
+    color:rgb(218, 211, 203);
+   
+    }
+    .fa-solid{
+        color:black ;
+    }
+    
+    .flex .cart{
+        background-color: rgb(43, 205, 226);
+        color: black;
+        font-size: 0.9rem;
+        padding: 0.44rem 1.1rem 0.44rem 0.6rem;
+        border-radius: 55px;
+        
+    }
+   .products-number{
+    position: absolute;
+    right: 0;
+    top:-5px;
+    font-size: 0.7rem;
+    background-color:red;
+    width: 22px;
+    width: 22px;
+    color: bisque;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   margin-right: 0.3rem;
+    }
+   .top-img{
+    background-image: url('top.jpg');
+    position: relative;
+    height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+   }
+   .content{
+    font-size: 2rem;
+    position: absolute;
+
+   
+    top: 45%;
+    transform: translateY(-50%);
+    
+    }
+    .lifestyle{
+        text-transform: uppercase;
+        font-size: 1.7rem;
+    }
+    .Women{
+        font-weight: bold;
+        margin-top: 0.7rem;
+    }
+    .sale{
+        margin-block: 0.10rem;
+        font-weight: bold;
+        color: red;
+    }
+    free-shipping{
+        font-size: 1.5rem;
+    }
+    button{
+        background-color: black;
+        color: white;
+        margin-top: 0.9rem;
+        font-size: 0.9rem;
+        border-radius: 5PX;
+        padding: 0.6rem 1.6rem;
+    }

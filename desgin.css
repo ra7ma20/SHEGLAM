@@ -1,0 +1,139 @@
+/* Page product details */
+footer{
+    text-align: center;
+   background-color:rgb(0, 0, 0) ;
+   border-top-left-radius: 8px;
+   border-top-right-radius: 8px;
+   padding-block: 1rem;
+   margin-top: 3rem;
+   color: rgb(255, 255, 255);
+   font-size: 17px;
+   display: flex;
+   font-style: italic;
+   justify-content: center;
+ }
+ span{
+   color: rgb(252, 252, 252);
+ }
+
+ .flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+ 
+}
+ .sign-in{
+  margin-inline: 1rem;
+
+}
+ .sign-in{
+  border: 1px solid black;
+  padding: 0.44rem 1rem;
+  border-radius: 55px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-right: 0.3rem;
+  margin-inline: 1rem;
+
+}
+ .register{
+  border: 1px solid black;
+  padding: 0.44rem 1rem;
+  border-radius: 55px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-right: 0.3rem;
+}
+ .sign-in:hover{
+  background-color: #3ea99d;
+  color:rgb(218, 211, 203);
+  }
+   .register:hover{
+    background-color: #58aaa0;
+    color:rgb(218, 211, 203);
+   
+    }
+    .fa-solid{
+        color:black ;
+    }
+     .cart{
+      background-color: rgb(43, 205, 226);
+      color: black;
+      font-size: 0.9rem;
+      padding: 0.44rem 1.1rem 0.44rem 0.6rem;
+      border-radius: 55px;
+      
+  }
+  .products-number{
+    position: absolute;
+    right: 0;
+    top:-5px;
+    font-size: 0.7rem;
+    background-color:rgb(222, 24, 24);
+    width: 22px;
+    width: 22px;
+    color: bisque;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   margin-right:0.3rem
+   }
+ 
+  main.flex{
+  max-width:800px;
+  display:flex;
+  box-shadow: rgba(0, 0, 0, 0.2)
+   0px -1px 1px -1px, rgba(0, 0, 0, 0.14)
+    0px 1px 1px 0px, rgba(0, 0, 0, 0.12)
+     0px 1px 3px 0px;
+     border-radius: 0.4rem;
+     background-color: white;
+  }
+  img{
+  width: 40%;
+  background-color: white;
+  }
+  .Add-To-Cart{
+    margin-right: 0.88rem;
+    background-color:#3ea99d;
+    color: #07030e;
+    border-radius: 4px;
+    padding: 6px 7px;
+    gap: 0.33rem;
+    font-style: italic;
+    display: flex; 
+    border-radius: 0.4rem;
+  }
+  .Card {
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    transition: 0.2s;
+    background-color: rgb(43, 135, 125);
+  }
+  h2{
+    font-style: italic;
+    color: rgb(148, 47, 47);
+  }
+  
+  .price{
+    margin-left: 0.88rem;
+    font-size: 0.9rem;
+    color:rgb(61, 16, 103);
+    font-weight: bold;
+
+  }
+  .description{
+    padding-inline:0.4rem ;
+    margin-top: 0.4rem;
+    font-size: 0.9rem;
+    margin-bottom: 0.6rem;
+    line-height: 1.1rem;
+    font-style: italic;
+  }
+  body{
+    background-color: #ededed;
+}
+  
+  

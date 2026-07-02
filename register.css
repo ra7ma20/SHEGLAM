@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", "sans-serif";
+}
+body{
+    background: url(Register.jpg) no-repeat;
+    background-position-x:center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 550px;
+    border: 2px solid rgba(255,255,2550.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.form-box h2{
+    color: #191717;
+    text-align: center;
+    font-size: 32px;
+}
+.form-box .input-box{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #151313;
+}
+.form-box .input-box input{
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0 20px 0 5px;
+    color: #151313;
+    font-size: 16px;
+}
+i{
+    position: absolute;
+    color: #151313;
+    top: 13px;
+    right: 0;
+
+
+}
+input::placeholder{
+    color: #151313;
+}
+.btn{
+    color:palevioletred;
+    background: rgba(245, 199, 245, 0.822);
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 3px 0 10px  rbpa(0,0,0,.5);
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+}
+.group span a{
+    color: #151313;
+    position: relative;
+    top:10px;
+    text-decoration:none;
+    font-weight: 500;
+}
+.group a:focus{
+    text-decoration: underline;
+}
+#result{
+    color:rgb(237, 142, 231) ;
+    font-weight: 600;
+    position: relative;
+    top:25px;
+
+}
+.popup{
+    width: 400px;
+    background-color: rgb(243, 237, 239);
+    border-radius: 6px;
+    position:absolute;
+    top:0;
+    left:50%;
+    transform: translate(-50%,-50%) scale(0);
+    transition: transform .4s , top .4s;
+    visibility: hidden;
+    text-align: center;
+    padding: 0 30px 30px ;
+    height: 330px;
+    color: rgb(237, 146, 211);
+}
+.popup ion-icon{
+    color:pink;
+    font-size: 50px;
+}
+.popup button{
+    width: 100%;
+    background:pink;
+    padding: 10px 0;
+    margin-top: 50px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: rgb(232, 142, 232);
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow:0 0 7px rgb(234, 145, 200);
+}
+.popup a{
+    color: pink;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+ .open-slide{
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+    visibility:visible ;
+ }
+ .popup h2{
+    font-size:500 ;
+    font-size: 38px;
+    margin: center;
+
+ }
